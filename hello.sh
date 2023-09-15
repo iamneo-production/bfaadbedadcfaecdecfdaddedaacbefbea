@@ -1,7 +1,7 @@
-echo -p "enter a number " num
-if[[ "$num" = "1" ]];
-then
-echo "1"
+echo "enter a number "
+read num
+if[ "$num" -gt 10 ]; then
+echo "one"
 else
 echo "in"
 fi
